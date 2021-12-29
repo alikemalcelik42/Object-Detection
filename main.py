@@ -1,5 +1,4 @@
 import cv2
-import trak
 
 video = cv2.VideoCapture(r"C:\Users\alike\Videos\cars.mp4")
 objectDetector = cv2.createBackgroundSubtractorMOG2(100, 50)
